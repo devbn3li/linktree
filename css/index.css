@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
 
 :root {
-  /*  Colors  */
+/*  Colors  */
   --youtube: #ff0000;
   --youtube2: #ff0000;
   --instagram: #e1306c;
@@ -162,8 +162,8 @@ input:checked + .slider:before {
 .ohraniceni,
 .ohraniceni .img-area {
   /* background: var(--b-background); */
-  backdrop-filter: blur(16px) brightness(0.7);
   -webkit-backdrop-filter: blur(16px) brightness(0.7);
+  backdrop-filter: blur(16px) brightness(0.7);
   border-radius: 30px;
   box-shadow: 0px 10px 10px #0000001a;
 }
