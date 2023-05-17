@@ -2,6 +2,7 @@
 
 :root {
 /*  Colors  */
+  --linkedin: #0077b5;
   --youtube: #ff0000;
   --instagram: #e1306c;
   --twitter: #1DA1F2;
@@ -14,7 +15,7 @@
     #285aeb 90%
   );
   --discord: #5865f2;
-  --twitch: #7134e4;
+  --github: #161b22;
 
   --b-accent: #ffffff;
   --s-button: #4c4c4c;
@@ -280,19 +281,22 @@ input:checked + .slider:before {
 /* Button Hover Background Colors */
 
 .wrapper .button:nth-child(1) .icon::before {
-    background: var(--youtube);
+  background: var(--linkedin);
 }
 .wrapper .button:nth-child(2) .icon::before {
-    background: var(--twitter);
+    background: var(--youtube);
 }
 .wrapper .button:nth-child(3) .icon::before {
-    background: var(--instagram_gradient);
+    background: var(--twitter);
 }
 .wrapper .button:nth-child(4) .icon::before {
-    background: var(--discord);
+    background: var(--instagram_gradient);
 }
 .wrapper .button:nth-child(5) .icon::before {
-    background: var(--twitch);
+    background: var(--discord);
+}
+.wrapper .button:nth-child(6) .icon::before {
+    background: var(--github);
 }
 
 .wrapper .button .icon i {
@@ -319,17 +323,20 @@ input:checked + .slider:before {
 /* Button Text Color */
 
 .wrapper .button:nth-child(1) span {
-    color: var(--youtube);
+    color: var(--linkedin);
 }
 .wrapper .button:nth-child(2) span {
-    color: var(--youtube2);
+    color: var(--youtube);
 }
 .wrapper .button:nth-child(3) span {
-    color: var(--instagram);
+    color: var(--twitter);
 }
 .wrapper .button:nth-child(4) span {
-    color: var(--discord);
+    color: var(--instagram);
 }
 .wrapper .button:nth-child(5) span {
-    color: var(--twitch);
+    color: var(--discord);
+}
+.wrapper .button:nth-child(6) span {
+    color: var(--github);
 }
