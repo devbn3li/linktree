@@ -205,11 +205,13 @@ input:checked + .slider:before {
   font-size: 23px;
   font-weight: 500;
   color: var(--name-color);
+  margin-top: 5px;
 }
 .ohraniceni .about {
   font-weight: 400;
   color: var(--about-color);
   font-size: 16px;
+  margin-bottom: 15px;
 }
 
 .wrapper {
